@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&family=Montserrat:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Antic Slab', serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    font-family: Montserrat;
+}
+h2{
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+/* Top Page */
+#hero-part{
+    background-image: url(img/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #3333339e;
+    background-blend-mode:multiply;
+    height: 700px;
+    color: #ffffff;
+    text-align: center;
+}
+#hero-part .container{
+    width: 80%;
+    margin: auto;
+}
+header .container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.logo-area{
+    width: 20%;
+    margin-top: 20px;
+}
+.logo-area h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+header .logo-area span{
+    font-family: 'Antic Slab', serif;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+.menu-item{
+    width: 80%;
+    margin-top: 20px;
+}
+.menu-item nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+nav ul li{
+    list-style: none;
+}
+.menu-item nav ul li a{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+.menu-item nav ul li a.action{
+	border: 2px solid #fff;
+	border-radius: 50px;
+	transition: .5s;
+	-webkit-transition: .5s;
+	-moz-transition: .5s;
+	-ms-transition: .5s;
+	-o-transition: .5s;
+}
+header .menu-item nav ul li a.action:hover{
+    color: #333;
+    background: #fff;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.hero-area{
+    margin-top: 220px;
+}
+.hero-area .hero-item h4{
+    font-family: cus;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+.hero-area .hero-item h2{
+    font-size: 59px;
+    font-weight: 700; 
+}
+.button{
+    background: #EC4646;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    display: block;
+    width: 20%;
+    margin: auto;
+    margin-top: 20px;
+}
+.button:hover i{
+    opacity: 1;
+    transition: 0.5s;
+    margin-left: 0;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.button i{
+   opacity: 0;
+   margin-left: -25px;
+   transition: .7s;
+   -webkit-transition: .7s;
+   -moz-transition: .7s;
+   -ms-transition: .7s;
+   -o-transition: .7s;
+}
+#hero-part .hero-area .hero-item h4:after{
+    content: '';
+	position: absolute;
+	width: 100px;
+	height: 4px;
+	background: #ec4646;
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/* End Top Page */
+/* Event Part */
+#event-part{
+    margin: 100px 0;
+}
+#event-part .container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-wrap: nowrap;
+}
+#event-part .container .event-heading {}
+#event-part .event-heading h2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 34px;
+    font-weight: 600;
+    position: relative;
+}
+#event-part .container .event-heading {}
+#event-part .event-heading h2:after{
+    content: '';
+	position: absolute;
+	width: 100px;
+	height: 4px;
+	background: #ec4646;
+	bottom: -15px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#event-part .container img{
+    width: 550px;
+    height: 350px;
+    box-shadow: 7px 7px #D9D9D9;
+    border-radius: 5px;
+}
+#event-part .container .event{
+    flex:50%;
+    padding: 30px;
+    text-align: center;
+}
+#event-part .container .event h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Montserrat;
+    margin: 30px 0;
+
+}
+#event-part .container .event p{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #666666;
+    margin-bottom: 20px;
+}
+#event-part .container .event-button{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #ec4646;
+    background: none;
+    letter-spacing: 5px;
+    display: block;
+}
+#event-part .container .event-button i{
+    opacity: 0;
+    margin-left: -25px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+#event-part .container .event-button:hover i{
+    opacity: 1;
+    margin-left: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+/* Event Part End */
+/* Explore-Part */
+#explore{
+    background-image: url(img/explore\ the\ world.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #33333357;
+    background-attachment: fixed;
+
+}
+#explore .container{
+    display: flex;
+    width: 80%;
+    margin: auto; 
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 35vw;
+}
+#explore .container .explore-part{
+    flex:0 0 50%;
+    max-width: 50%;
+    color: #fff;
+}
+#explore .container .explore-part h2{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 30px;
+    position: relative;
+}
+#explore .container .explore-part h2:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: #ec4646;
+    bottom: -15px;
+}
+ #explore .container .explore-part p{
+     font-size: 16px;
+     font-weight: 400;
+     margin: 20px 0;
+ }
+ #explore .container .explore-part .explore-button{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #ec4646;
+    background: none;
+    letter-spacing: 5px;
+    display: block;
+}
+#explore .container .explore-part .explore-button:hover{
+	margin-left: -10px;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+}
+ #explore .container .explore-part .explore-button i{
+     opacity: 0;
+     transition: 0.5s;
+     margin-left: -25px;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+#explore .container .explore-part .explore-button:hover i{
+    opacity: 1;
+    transition: 0.5;
+    margin-left: 0;
+    -webkit-transition: 0.5;
+    -moz-transition: 0.5;
+    -ms-transition: 0.5;
+    -o-transition: 0.5;
+}
+/* End Explore Part */
+/*Upcoming Tour Area*/
+#upcoming{
+    margin: 100px 0;
+}
+#upcoming .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#upcoming .container .text-part{
+    flex: 0 0 25%;
+}
+#upcoming .container .text-part h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #333333;
+    position: relative;
+}
+#upcoming .container .text-part h2:before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    background: #ec4646;
+    bottom: -15px;
+}
+#upcoming .container .text-part p{
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #888888;
+}
+#upcoming .container .text-part .up-button{
+    background: #EC4646;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50px;
+    letter-spacing: 5px;
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 220px;
+}
+#upcoming .container .text-part .up-button i{
+    opacity: 0;
+    transition: 0.7s;
+    margin-left: -25px;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+#upcoming .container .text-part .up-button:hover i{
+    opacity: 1;
+    transition: 0.7s;
+    margin-left: 0px;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+#upcoming .container .text-part{
+    flex: 0 0 35%;
+    padding-right: 10%;
+}
+#upcoming .container .image-area{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#upcoming .container .image-area .single-gallary{
+    flex: 0 0 50%;
+    margin: 0;
+    padding: 0;
+}
+#upcoming .container .image-area .single-gallary img {
+	float: right;
+	padding: 5px;
+	border-radius: 8px;
+}
+/*End Upcoming Tour Area */
+/*Footer Start */
+#footer .container{
+    width: 80%;
+    margin: auto;
+}
+#footer{
+    background: #111111;
+    color: #bfbfbf;
+    text-align: center;
+    padding: 30px 0;
+    font-family: Montserrat;
+}
+#footer .container p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;  
+}
+#footer .container span{
+    font-size: 14px;
+}
+/*Footer End */
+
